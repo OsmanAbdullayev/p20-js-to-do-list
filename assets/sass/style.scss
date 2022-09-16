@@ -1,0 +1,36 @@
+@import "reset";
+@import "variables";
+@import "header";
+
+section.main {
+    .container {
+        min-height: 100vh;
+        // overflow: scroll;
+		.central {
+			height: 100%;
+            .wrapper {
+				div {
+					p {
+						word-wrap: break-word;
+					}
+				}
+            }
+		}
+	}
+}
+
+.bg-primary {
+	background-color: #293462 !important;
+}
+
+.text-primary {
+	color: #293462 !important;
+}
+
+.bg-secondary {
+	background-color: #feb139 !important;
+}
+
+.bg-danger {
+	background-color: #d61c4e !important;
+}
